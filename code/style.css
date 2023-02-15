@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER SECTION */
+.header {
+  width: 100%;
+  padding: 32px 300px;
+  color: white;
+  background-color: #1f2937;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .links {
+  flex: 0 1 auto;
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  
+  margin: 100px 0;
+}
+
+.hero .content {
+  flex: 0 1 500px;
+}
+
+.hero .content h1 {
+  font-size: 64px;
+}
+
+.hero img {
+  width: 500px;
+  height: 300px;
+  background-color: #161d27;
+}
+
+/* CARD CONTAINER SECTION */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  min-height: 500px;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 48px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+.card {
+  flex: 0 0 250px;
+}
+
+.card img {
+  min-width: 200px;
+  min-height: 200px;
+
+  background-color: bisque;
+}
+
+/* QUOTE SECTION */
+.quote-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  
+  height: 500px;
+  padding: 0px 300px;
+  background-color: lightgrey;
+}
+
+.quote-para {
+  font-size: 32px;
+  font-style: italic;
+}
+
+/* CALL-TO-ACTION SECTION */
+.cto-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  
+  margin: 100px 300px;
+  padding: 64px;
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.cto-container .content {
+  color: white;
+}
+
+.cto-container button {
+  padding: 8px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 8px;
+}
+
+/* FOOTER SECTION */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: #1f2937;
+}
